@@ -80,6 +80,7 @@ opacity: 50%;
     font-weight: 400;
     color:hsl(300, 43%, 22%);
     opacity: 70%;
+    line-height: 25px;
 }
 .imagediv img{
     border-radius: 50px;
@@ -88,6 +89,9 @@ opacity: 50%;
     flex-direction: row;
 }
 .ratestar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 500px;
      margin: 15px; 
     background-color: hsl(300, 24%, 96%);
@@ -96,12 +100,14 @@ opacity: 50%;
 }
 .rate{
     font-family:Spartan;
-     
+     font-weight: 700;
      font-size: 15px;
      color:hsl(300, 43%, 22%);
     padding-bottom: 5px;
 }
-
+.stardiv img{
+    padding: 2px;
+}
 #stare2{
    
     margin-left: 50px;
