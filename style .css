@@ -1,0 +1,152 @@
+/* @import url(https://fonts.google.com/specimen/Spartan); */
+/* @font-face {
+    font-family:Spartan ;
+    src: url(https://fonts.google.com/specimen/Spartan);
+} */
+body{
+    font-family: 'Spartan', sans-serif;
+    padding: 30px;
+    background-image: url('./images/bg-pattern-bottom-desktop.svg');
+    
+    /* background: url('./images/bg-pattern-bottom-desktop.svg'); */
+}
+.divcont{
+    display: flex;
+    flex-direction: row;
+    
+    
+     justify-content: space-around; 
+}
+.main{
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.h1div{
+    width: 273px;
+}
+.part{
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    padding-top: 40px;
+/* border: 1px solid black; */
+ /* width: 30%;  */
+ margin: 20px;
+height: 270px;
+
+}
+.part p{
+    font-family: Spartan;
+    font-size: 15px;
+    color: white;
+    line-height: 23px;
+    
+}
+.namep{
+    font-weight: 700;
+}
+.job{
+/* color: hsl(300, 24%, 96%)!important; */
+opacity: 50%;
+}
+#part1{
+    margin-top: 20px;
+}
+#part2{
+    margin-top: 40px;
+}
+#part3{
+    margin-top: 60px;
+}
+.top{padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.person{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.name{
+    padding-left: 30px;
+}
+.h3div{
+    width: 559px;
+}
+.h3div p{font-family:Spartan;
+    font-weight: 400;
+    color:hsl(300, 43%, 22%);
+    opacity: 70%;
+}
+.imagediv img{
+    border-radius: 50px;
+}
+.ratestar{display:flex;
+    flex-direction: row;
+}
+.ratestar{
+    width: 500px;
+     margin: 15px; 
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding: 10px;
+}
+.rate{
+    font-family:Spartan;
+     
+     font-size: 15px;
+     color:hsl(300, 43%, 22%);
+    padding-bottom: 5px;
+}
+
+#stare2{
+   
+    margin-left: 50px;
+}
+#stare3{
+   
+    margin-left: 100px;
+}
+ h1{
+     font-family:Spartan;
+     
+     font-weight: 700;
+     color:hsl(300, 43%, 22%)
+ }
+ 
+@media screen and (max-width:460px){
+    body{
+        padding: 0px;
+        background-image: url('./images/bg-pattern-top-mobile.svg');
+    }
+    .ratestar{
+        width: 90%;
+        margin: 3px;
+    }
+    #stare2{
+   
+        margin-left: 0px;
+    }
+    #stare3{
+       
+        margin-left: 0px;
+    }
+    
+    .top{
+        
+       flex-direction: column !important ;
+    }
+   .part{
+       width:fit-content;
+   }
+   .h3div{
+    width:287px;
+}
+.divcont{
+    flex-direction: column !important ;
+     
+}
+}
