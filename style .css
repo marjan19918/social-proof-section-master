@@ -1,14 +1,10 @@
-/* @import url(https://fonts.google.com/specimen/Spartan); */
-/* @font-face {
-    font-family:Spartan ;
-    src: url(https://fonts.google.com/specimen/Spartan);
-} */
+
 body{
     font-family: 'Spartan', sans-serif;
     padding: 30px;
     background-image: url('./images/bg-pattern-bottom-desktop.svg');
     
-    /* background: url('./images/bg-pattern-bottom-desktop.svg'); */
+    
 }
 .divcont{
     display: flex;
@@ -31,8 +27,7 @@ body{
     background-color: hsl(300, 43%, 22%);
     padding: 20px;
     padding-top: 40px;
-/* border: 1px solid black; */
- /* width: 30%;  */
+
  margin: 20px;
 height: 270px;
 
@@ -48,7 +43,7 @@ height: 270px;
     font-weight: 700;
 }
 .job{
-/* color: hsl(300, 24%, 96%)!important; */
+
 opacity: 50%;
 }
 #part1{
@@ -68,13 +63,13 @@ opacity: 50%;
 .person{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
+   
 }
 .name{
     padding-left: 30px;
 }
 .h3div{
-    width: 559px;
+    width: 500px;
 }
 .h3div p{font-family:Spartan;
     font-weight: 400;
@@ -116,9 +111,10 @@ opacity: 50%;
    
     margin-left: 100px;
 }
- h1{
+ .h1div h1{
+     width: 370px;
      font-family:Spartan;
-     
+     font-size: 45px;
      font-weight: 700;
      color:hsl(300, 43%, 22%)
  }
@@ -129,7 +125,10 @@ opacity: 50%;
         background-image: url('./images/bg-pattern-top-mobile.svg');
     }
     .ratestar{
-        width: 90%;
+        flex-direction: column;
+        
+        align-items: center;
+         width: 90%; 
         margin: 3px;
     }
     #stare2{
@@ -143,16 +142,25 @@ opacity: 50%;
     
     .top{
         
-       flex-direction: column !important ;
+       flex-direction: column  ;
     }
    .part{
        width:fit-content;
    }
    .h3div{
+    text-align: center;
     width:287px;
 }
+.h3div p{
+    font-size: 15px;
+}
+.h1div h1{
+    font-size: 32px;
+    width: auto;
+    text-align: center;
+}
 .divcont{
-    flex-direction: column !important ;
+    flex-direction: column  ;
      
 }
 }
